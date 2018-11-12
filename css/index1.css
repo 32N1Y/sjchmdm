@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import url(http://mjzr.changyou.com/logo/mjzr_logo.css);
+
+/* 布局 */
+
+
+/*----------整体 */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 12px;
+	font-weight: normal
+}
+
+section,
+article,
+aside,
+header,
+footer,
+nav,
+dialog,
+figure {
+	display: block
+}
+
+
+/*html{ min-width:1920px;}*/
+
+a {
+	blr: expression(this.onFocus=this.blur());
+	outline: none
+}
+
+body {
+	background-color: #141414
+}
+
+
+/*----------主体 */
+
+.wrapper {
+	overflow: hidden;
+	position: relative
+}
+
+#parallax {
+	position: relative;
+	left: 0;
+	overflow: hidden;
+	top: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0
+}
+
+#footer {
+	padding: 18px 0;
+	font-size: 12px;
+	line-height: 20px;
+	color: #7a636a;
+	text-align: center;
+	border: 1px solid red;
+}

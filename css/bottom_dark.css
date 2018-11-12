@@ -1,0 +1,21 @@
+@charset "utf-8";
+/**
+*** Author: Zs0u 
+*** 通用，深色
+*/
+
+#cyou_bottom{
+	background-color:#181818;
+	border-top-color:#242424;
+}
+#cyou_bottom a{ color:#535353; }
+#cyou_bottom a:hover{ color:#767676;}
+#cyou_bottom .highlight{ color:#767676;}
+
+#cyou_bottom, .cyou_bottom_cont p{ color:#535353; }
+.cyou_bottom_cont p{ border-left-color:#535353; }
+
+.cyou_bottom_left a{
+	background-image:url('http://i0.cy.com/www/public/nav/v2.3/logo_dark.png');	
+	/*background-image:url('../../images/logo_dark.png'); */
+}
